@@ -4,7 +4,8 @@
   "description": "Bujang Raspberry Pi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/hallucinogen/bujang-rpi#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "rpi-gpio": "^0.7.0",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.4.6"
   }
 }
